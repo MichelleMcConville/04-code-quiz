@@ -40,6 +40,24 @@ function displayQA() {
 };
 // -----------------------------------------------------------------------------
 
+// Showing right or wrong f(x)
+function compareAnswer (event) {
+  console.log(event);
+  if(event === questionBank[q].answer) {
+    score += 10;
+      console.log("You are correct!");
+    feedback.textContent = ("You are correct!");
+      console.log(score);
+  } else {
+    timeLeft -= 10;
+      console.log("You are Wrong!");
+    feedback.textContent = ("You are Wrong!");
+  }
+  q++;
+  displayQA();
+};
+// -----------------------------------------------------------------------------
+
 
 
 
