@@ -1,9 +1,32 @@
+// Global variables, questions are stored in questions.js
 var beginBtn = document.querySelector("#beginBtn");
-
+var leaderBtn = document.querySelector("#leaderBtn")
 var timerDisplay = document.querySelector(".timer");
+var gameCard = document.querySelector("#gameCard");
+var question = document.querySelector("#question");
+var mcOne = document.querySelector("#mcOne");
+var mcTwo = document.querySelector("#mcTwo");
+var mcThree = document.querySelector("#mcThree");
+var mcFour = document.querySelector("#mcFour");
+var answer = document.querySelector("#answer");
+var feedback = document.querySelector("#feedback");
+var card = document.querySelector("#mc");
+var input = document.querySelector("#inputContainer");
+var scoreCard = document.querySelector("#scoreCard");
+var scoreBtn = document.querySelector("#scoreBtn");  // might delete this
+var initialsBox = document.querySelector("#initialsBox");
+var submitBtn = document.querySelector("#submitBtn");
+var backBtn = document.querySelector("#backBtn");
+var clearBtn = document.querySelector("#clearBtn");
+
 
 var timeLeft = 15;
+var q = 0;
+var s = 0;
+var score = 0;
+var scoreList = [];
 
+getScore();
 // -----------------------------------------------------------------------------
 
 // Timer f(x)
