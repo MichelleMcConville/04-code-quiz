@@ -71,6 +71,16 @@ function saveScore() {
 };
 // -----------------------------------------------------------------------------
 
+// Game over f(x)
+function gameOver() {
+  scoreBtn.innerHTML = (score);
+  scoreBtn.style.display = "inline-block";
+  //input = "inline-block";
+  //scoreCard = "inline-block";
+  leaderBoard();
+};
+// -----------------------------------------------------------------------------
+
 
 
 
