@@ -100,10 +100,20 @@ function leaderBoard() {
 };
 // -----------------------------------------------------------------------------
 
+// Go back f(x)
+//function goBack() {};
+// -----------------------------------------------------------------------------
 
+// Reset scores f(x)
+//function resetHighScores () {};
+// -----------------------------------------------------------------------------
 
+// Scoring f(x)
+//function score() {};
+// -----------------------------------------------------------------------------
 
-
+// Hides start screen and displays question screen
+//function hiddenShow() {};
 // -----------------------------------------------------------------------------
 
 // Event listeners
@@ -112,4 +122,40 @@ beginBtn.addEventListener("click", function(event) {
   displayQA();
   beginBtn.style.display = "none";
   gameCard.style.display = "block";
+});
+
+card.addEventListener("click", function(event) {
+  var event = event.target;
+  compareAnswer(event.textContent.trim());
+});
+
+submitBtn.addEventListener("click", function(event) {
+  //console.log("submitBtnClick")
+  event.preventDefault();
+  //scoreCard.style.display = "none";  //not sure this is right
+
+  var playerInitials = initialsBox.value.trim();
+  var newScore = {
+    player: playerInitials,
+    score: score
+  };
+  console.log(newScore);
+  scoreList.push(newScore);
+  saveScore();
+});
+
+// Event listener for go back button ??
+backBtn.addEventListener("click", function(event) {
+  timer();
+  displayQA();
+  beginBtn.style.display = "inline-block";
+  gameCard.style.display = "none";
+  scoreCard.style.display = "none"
+});
+
+// Event listener for clear scores button ??
+clearBtn.addEventListener("click", function(event) {
+  scoreList = [];
+  saveScore();
+  leaderBoard();
 });
