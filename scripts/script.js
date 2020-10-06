@@ -58,6 +58,14 @@ function compareAnswer (event) {
 };
 // -----------------------------------------------------------------------------
 
+function getScore() {
+  var storedScore = JSON.parse(localStorage.getItem("highScore"));
+  if(storedScore !== null) {
+    scoreList = storedScore;
+  }
+};
+// -----------------------------------------------------------------------------
+
 
 
 
