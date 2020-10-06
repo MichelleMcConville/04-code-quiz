@@ -104,3 +104,35 @@ p {
   border-top: 5px solid #095484;
   margin: 2rem 1rem 1rem;
 }
+
+
+/************************/
+/*        tbd    */
+/************************/
+
+.selections {
+  padding: 0.5rem;
+}
+
+#card {
+  background-color: rgb(212, 166, 174);
+  margin: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding: auto;
+  width: 60%;
+  -webkit-border-radius: 1rem;
+}
+
+/* .visible {
+  display: block;
+}
+
+.visible {
+  display: block;
+} */
+
+.w3-container {
+  padding: 0;
+  -webkit-border-radius: 1rem;
+}
