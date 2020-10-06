@@ -67,3 +67,40 @@ p {
 .container > {
   width: 100%;
 }
+
+
+/************************/
+/*        Buttons       */
+/************************/
+
+.btn {
+  background: conic-gradient(from 45deg, red, orange, yellow, green, blue, purple);
+  border-color: #333;
+  color: #ecf5ff;
+  font-size: 1.5rem;
+  font-weight: 700;
+  /* margin-top: 2rem; */
+  margin: 0.5rem;
+  padding: 0.5rem;
+  text-decoration: none;
+  text-shadow: -1px 0 #333, 0 2px black, 1px 0 black, 0 -1px black;
+  -webkit-border-radius: 1rem;
+}
+
+.btn:hover {
+  cursor: pointer;
+  box-shadow: 0 0.5rem 0.5rem 0 #333;
+  transform: translateY(.1rem);
+  transition: transform 150ms;
+}
+
+.btn[disabled]:hover {
+  cursor: not-allowed;
+  box-shadow: none;
+  transform: none;
+}
+
+#hr2 {
+  border-top: 5px solid #095484;
+  margin: 2rem 1rem 1rem;
+}
