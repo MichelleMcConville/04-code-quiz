@@ -81,6 +81,25 @@ function gameOver() {
 };
 // -----------------------------------------------------------------------------
 
+// Keeping track of top 4 leaders w/ local storage f(x)
+function leaderBoard() {
+  scoreList.sort((a, b) => {
+    return b.score - a.score;
+  });
+  //only render the top 4 scores.
+  topFour = scoreList.slice(0, 4);
+
+  if(s < topFour.length) {
+    lbOne.textContent = topFour[0].player + " - " + topFour[0].score;
+    lbTwo.textContent = topFour[1].player + " - " + topFour[1].score;
+    lbThree.textContent = topFour[2].player + " - " + topFour[2].score;
+    lbFour.textContent = topFour[3].player + " - " + topFour[3].score;
+  }
+  //console.log(topFour[0].player);
+  //console.log(topFour[0].score);
+};
+// -----------------------------------------------------------------------------
+
 
 
 
