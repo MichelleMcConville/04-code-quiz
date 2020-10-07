@@ -14,56 +14,43 @@
 
 <body>
 
-  <!-- <main class="Container"> -->
-
   <h1>Coding Quiz Challenge</h1>
-
-  <div class="col">
+  
+  <div class="start">
     <p>Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your time by 10 seconds!</p>
+    <button id="beginBtn" type="button" class="btn">Begin Quiz</button><br>
   </div>
-
-  <h2 class="timer">TIMER: </h2>
-
-  <button id="beginBtn" type="button" class="btn">Begin Quiz</button><br>
-    
-  <!--Quiz window-->
+   
   <main class="main">
 
-    <div id="gameCard" class="w3-container" >
+    <!--Quiz window-->
+    <div id="gameCard" class="w3-container hide">
+
+      <h2 class="timer">TIMER: </h2>
 
       <div id="card" class="w3-card-4">
         
         <header class="w3-container w3-light-grey">
-          <h3 id="question">Question Goes HERE!</h3>
+          <h3 id="question"></h3>
         </header>
 
         <hr style="margin-top:0; border-color:transparent;">
-        <div id="mc" class="w3-container">
-          <div class="selections">
-            <label id="mcOne" for="checkbox">
-              Multiple Choice goes HERE!
-            </label>
-          </div>
 
-          <hr>
-          <div class="selections">
-            <label id="mcTwo" for="checkbox">
-              Multiple Choice goes HERE!
-            </label>
-          </div>
+        <div id="multipleChoice" class="w3-container">
+          <div class="questionLine">
+            <label id="mcA"></label>
+          </div><hr>
 
-          <hr>
-          <div class="selections">
-            <label id="mcThree" for="checkbox">
-              Multiple Choice goes HERE!
-            </label>
-          </div>
+          <div class="questionLine">
+            <label id="mcB"></label>
+          </div><hr>
 
-          <hr>
-          <div class="selections">
-            <label  id="mcFour" for="checkbox">
-              Multiple Choice goes HERE!
-            </label>
+          <div class="questionLine">
+            <label id="mcC"></label>
+          </div><hr>
+
+          <div class="questionLine">
+            <label  id="mcD"></label>            
           </div>
 
         </div>
@@ -73,74 +60,45 @@
         <footer id="feedback" class="w3-block w3-dark-grey">Can you answer all the questions in time?</footer>
 
       </div>
+      
     </div>
 
     <button id="leaderBtn" type="button" class="btn">View High Scores</button><br>
 
-    <hr id="hr2">
+    <!--Player input window-->
+    <div id="inputForm" class="w3-container hide">
 
-    <div id="inputContainer" class="w3-container">
       <h1>!! GAME OVER !!</h1>
     
-      <h2>You scored <span <button id="scoreBtn" type="button" class="btn" style="display:none">Score</button></span> points!</h2>
+      <h2>You scored <span <button id="scoreBtn" type="button" class="btn">Score</button></span> points!</h2>
         <form>
-            <label for="initialsBox"><p>Enter Your Initials Here:</p></label><br>
-            <input id="initialsBox" type="text" maxlength="3"><br>
-            <input id="submitBtn" type="submit" class="btn">
+          <label for="initialsBox"><p></p></label><br>
+          <input id="initialsBox" type="text" maxlength="3"><br>
+          <input id="submitBtn" type="submit" class="btn">
         </form>
+
     </div>
 
-    <hr id="hr2">
+    <!--High Score window-->
+    <div id="scoreCard" class="w3-container hide">
 
-    
-  <!--High Score window-->
+      <div id="card" class="w3-card-4">
+        
+        <header class="w3-container w3-light-grey">
+          <h1>Top 10 High Scores</h1>
+        </header>
 
-  <div id="scoreCard" class="w3-container">
-
-    <div id="card" class="w3-card-4">
-      
-      <header class="w3-container w3-light-grey">
-        <h1 id="question">High Scores</h1>
-      </header>
-
-      <hr style="margin-top:0; border-color:transparent;">
-      <div id="mc" class="w3-container">
-        <div class="selections">
-          <label id="lbOne" for="checkbox">
-            <!-- Multiple Choice goes HERE! -->
-          </label>
-        </div>
-
-        <hr>
-        <div class="selections">
-          <label id="lbTwo" for="checkbox">
-            <!-- Multiple Choice goes HERE! -->
-          </label>
-        </div>
-
-        <hr>
-        <div class="selections">
-          <label id="lbThree" for="checkbox">
-            <!-- Multiple Choice goes HERE! -->
-          </label>
-        </div>
-
-        <hr>
-        <div class="selections">
-          <label  id="lbFour" for="checkbox">
-            <!-- Multiple Choice goes HERE! -->
-          </label>
-        </div>
-
+        <hr style="margin-top:0; border-color:transparent;">
+        <div id="leaderBoard" class="w3-container" style="min-height: 275px"></div>
+  
+        <hr style="margin-top:0; border-color:transparent;">
+        <footer id="feedback" class="w3-block w3-dark-grey">Thx for Playing</footer>
       </div>
 
-      <hr style="margin-top:0; border-color:transparent;">
-      <footer id="feedback" class="w3-block w3-dark-grey">Thx for Playing</footer>
-    </div>
-  </div>
+      <button id="backBtn" type="button" class="btn">Go Back</button>
+      <button id="clearBtn" type="button" class="btn">Clear High Score</button>
 
-  <button id="backBtn" type="button" class="btn">Go Back</button>
-  <button id="clearBtn" type="button" class="btn">Clear High Score</button>
+    </div>
     
   </main>
 
