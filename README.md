@@ -1,40 +1,89 @@
-# 04-code-quiz `|` `<== Link to come later!`
+# [**04-code-quiz**](https://michellemcconville.github.io/04-code-quiz/)
 
 ## Customer Request
 
 For this project the customer request we:
 
-```
-1. User Story
+Build a `JavaScript Code Quiz` that must contain the following:
 
-    AS A coding boot camp student
-    I WANT to take a timed quiz on JavaScript fundamentals that stores high scores
-    SO THAT I can gauge my progress compared to my peers
-
-2. Acceptance Criteria
-
-    GIVEN I am taking a code quiz
-    WHEN I click the start button
-    THEN a timer starts and I am presented with a question
-    WHEN I answer a question
-    THEN I am presented with another question
-    WHEN I answer a question incorrectly
-    THEN time is subtracted from the clock
-    WHEN all questions are answered or the timer reaches 0
-    THEN the game is over
-    WHEN the game is over
-    THEN I can save my initials and score
-```
+- Instructions on quiz play
+- A timer starting when quiz begins
+- The ability to loop thru multiple choice questions & answers
+- Statement showing if answer chosen was right or wrong
+- Time subtracted from incorrect answer selection
+- The ability to save player initials & top scores
+- The ability to clear high scores
+- The ability to view high scores
+- The ability to go back & retake quiz
+- Game over presented when all questions answered OR timer runs out
+- Various buttons
+  - Begin Quiz
+  - View High Scores
+  - Submit
+  - Go Back
+  - Clear High Scores
 
 ---
 
 ## Site
 
-### HTML `|` [**TBD**](https://tbd/) `|` `<== Link to come later!`
+This quiz was newly created no customer boilerplate provided
+
+### HTML `|` [**code-quiz**](https://michellemcconville.github.io/04-code-quiz/)
+
+#### 1. Newly created *`index.html`* file with the following
+
+- This pages contains all the standard `<meta>`, stylesheet `<links>` & `<script>` files necessary
+- Contained inside the top of the `<body>` is:
+  - A `<h1>` with a `<div>` explaining the rules of the game
+  - A `Begin Quiz` button
+  - And a `View High Scores` button
+- The `<main>` consists of 3 parts:
+  - A *`gameCard`* w/ a `<h3>` & a `<footer>` which houses:
+    - A `Timer`
+    - A `card` w/ the `questions`
+    - 4 `multiple choice` options
+    - And notification of `right` or `wrong` answer selection
+  - An *`inputForm`* which consists of:
+    - The `Game Over` screen
+    - The player's `score`
+    - An `<input>` box for player initials
+    - And a `Submit` button
+  - A *`scoreCard`* w/ a `<h3>` & a `<footer>` which houses:
+    - The `Top 10 High Scores`
+    - A `Go Back` button
+    - And a `Clear High Scores` Button
 
 ### CSS
 
+#### 2. Newly created *`style.css`* file with the following
+
+- Added the `html5doctor.com Reset Style Sheet` by [Richard Clark](http://richclarkdesign.com)
+- Organized the style.css file alphabetically by element `< >` then class `<.>` then id `<#>`
+- Create the following groups:
+  - *`Global, Classes, IDs, & Buttons`*
+
 ### JS
+
+#### 3. Newly created *`script.js`* file with the following
+
+- List of **`variables`**
+- List of **`eventListeners`**
+- List of **`functions`**
+  - *`timer (x)`* Sets a timer of 15 seconds per Q
+  - *`displayQA f(x)`* Displays the multiple choice Q&A part of the game
+  - *`compareAnswer f(x)`* Compares the player's selections & responds w/ Correct or Wrong
+  - *`getScore f(x)`* Get the scores from local storage
+  - *`saveScore f(x)`* Saves scores to local storage
+  - *`gameOver f(x)`* Shows Game Over when the player answers all Q's or time runs out
+  - *`leaderBoard f(x)`* Shows the scoreCard section of the game
+  - *`addToLeaderBoard f(x)`* Adds players initials & score to scoreCard
+  - *`removeFromLeaderBoard f(x)`* Clears the scoreCard when button selected
+
+#### 4. Newly created *`questions.js`* file with the following
+
+- An array which contains an `object` with the `keys` of: `question`, `selection` & `answer`
+- <span style="color:red">**NOTE**:</span> The question array can be modified to meet the clients needs at any time
 
 ---
 
@@ -50,17 +99,17 @@ Add more if needed
 
 ---
 
-## Accessibility Standards Validation
+## Accessibility Standards Validation `|` <span style="color:red">**Coming Soon**</span>
 
 Successfully ran code thru [W3C](https://validator.w3.org/) validator
 
-![Validation Results](./images/tbd) `|` `<== Image to come later!`
+![Validation Results](./images/tbd) `|` <span style="color:red">**<== Image to come Later!**</span>
 
 Make sure the image works it can be finicky!
 
 ---
 
-## Output for Review
+## Output for Review `|` <span style="color:red">**Coming Soon**</span>
 
 Submitted the following for review:
 
@@ -69,12 +118,12 @@ Submitted the following for review:
 
 ---
 
-## Mock-Up
+## Mock-Up `|` <span style="color:red">**Coming Soon**</span>
 
 The following animation demonstrates the application functionality:
 
 Do NOT forget to add screenshots!
 
-![code quiz](./images/04-web-apis-homework-demo.gif)
+<!-- ![code quiz](./images/04-web-apis-homework-demo.gif) -->
 
 ---
