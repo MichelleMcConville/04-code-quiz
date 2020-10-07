@@ -89,7 +89,7 @@ p {
 /*         IDs          */
 /************************/
 
-#card {
+#card1, #card2 {
   background-color: rgb(212, 166, 174);
   margin: auto;
   margin-top: 2rem;
