@@ -45,7 +45,8 @@ Add more if needed
 [w3schools](https://www.w3schools.com) `|`
 [MDN web docs](https://developer.mozilla.org/en-US/) `|`
 [Markdown Guide](https://www.markdownguide.org/) `|`
-[google](https://www.google.com/)
+[google](https://www.google.com/) `|`
+[w3schools Quiz](https://www.w3schools.com/quiztest/quiztest.asp?qtest=JS)
 
 ---
 
@@ -68,7 +69,7 @@ Submitted the following for review:
 
 ---
 
-## Mock-Up??
+## Mock-Up
 
 The following animation demonstrates the application functionality:
 
