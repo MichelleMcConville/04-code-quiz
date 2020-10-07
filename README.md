@@ -102,6 +102,7 @@ Add more if needed
 ## Accessibility Standards Validation `|` <span style="color:red">**Coming Soon**</span>
 
 Successfully ran code thru [W3C](https://validator.w3.org/) validator
+![Validation Results](./images/04-w3c-Success.png)
 
 ![Validation Results](./images/tbd) `|` <span style="color:red">**<== Image to come Later!**</span>
 
