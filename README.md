@@ -1,4 +1,4 @@
-# [**04-code-quiz**](https://michellemcconville.github.io/04-code-quiz/) :link
+# [**04-code-quiz**](https://michellemcconville.github.io/04-code-quiz/) :link:
 
 ## Customer Request
 
