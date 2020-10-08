@@ -1,4 +1,4 @@
-# [**04-code-quiz**](https://michellemcconville.github.io/04-code-quiz/) :link:
+# [**04-code-quiz**](https://michellemcconville.github.io/04-code-quiz/) :link
 
 ## Customer Request
 
@@ -105,7 +105,7 @@ This quiz was newly created no customer boilerplate provided
 
 ---
 
-## Output for Review `|` <span style="color:red">**Coming Soon**</span>
+## Output for Review
 
 Submitted the following for review:
 
@@ -116,8 +116,8 @@ Submitted the following for review:
 
 ## Application Screenshots
 
-| ***`Starting Screen`***                     | ***`Q & A Screen`***                        |
+| ***Starting Screen***                       | ***Q & A Screen***                          |
 | :-----------------------------------------: | :-----------------------------------------: |
 | ![Quiz Start](./images/quizStart400.jpg)    | ![Quiz Q & A](./images/quizQuestion400.jpg) |
-| ***`Game Over Screen`***                    | ***`Leader Board Screen`***                 |
+| ***Game Over Screen***                      | ***Leader Board Screen***                   |
 | ![Quiz Over](./images/quizOver400.jpg)      | ![High Scores](./images/quizScores400.jpg)  |
