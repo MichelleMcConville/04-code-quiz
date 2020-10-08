@@ -1,10 +1,10 @@
-# [**04-code-quiz**](https://michellemcconville.github.io/04-code-quiz/)
+# [**04-code-quiz**](https://michellemcconville.github.io/04-code-quiz/) :link:
 
 ## Customer Request
 
 For this project the customer request we:
 
-Build a `JavaScript Code Quiz` that must contain the following:
+Build a ***`JavaScript Code Quiz`*** that must contain the following:
 
 - Instructions on quiz play
 - A timer starting when quiz begins
@@ -29,9 +29,9 @@ Build a `JavaScript Code Quiz` that must contain the following:
 
 This quiz was newly created no customer boilerplate provided
 
-### HTML `|` [**code-quiz**](https://michellemcconville.github.io/04-code-quiz/)
+### ***HTML*** `|` [**code-quiz**](https://michellemcconville.github.io/04-code-quiz/) :link:
 
-#### 1. Newly created *`index.html`* file with the following
+#### 1. Newly created ***`index.html`*** file with the following
 
 - This pages contains all the standard `<meta>`, stylesheet `<links>` & `<script>` files necessary
 - Contained inside the top of the `<body>` is:
@@ -39,33 +39,33 @@ This quiz was newly created no customer boilerplate provided
   - A `Begin Quiz` button
   - And a `View High Scores` button
 - The `<main>` consists of 3 parts:
-  - A *`gameCard`* w/ a `<h3>` & a `<footer>` which houses:
+  - A ***`gameCard`*** w/ a `<h3>` & a `<footer>` which houses:
     - A `Timer`
     - A `card` w/ the `questions`
     - 4 `multiple choice` options
     - And notification of `right` or `wrong` answer selection
-  - An *`inputForm`* which consists of:
+  - An ***`inputForm`*** which consists of:
     - The `Game Over` screen
     - The player's `score`
     - An `<input>` box for player initials
     - And a `Submit` button
-  - A *`scoreCard`* w/ a `<h3>` & a `<footer>` which houses:
+  - A ***`scoreCard`*** w/ a `<h3>` & a `<footer>` which houses:
     - The `Top 10 High Scores`
     - A `Go Back` button
     - And a `Clear High Scores` Button
 
-### CSS
+### ***CSS***
 
-#### 2. Newly created *`style.css`* file with the following
+#### 2. Newly created ***`style.css`*** file with the following
 
 - Added the `html5doctor.com Reset Style Sheet` by [Richard Clark](http://richclarkdesign.com)
 - Organized the style.css file alphabetically by element `< >` then class `<.>` then id `<#>`
 - Create the following groups:
   - *`Global, Classes, IDs, & Buttons`*
 
-### JS
+### ***JS***
 
-#### 3. Newly created *`script.js`* file with the following
+#### 3. Newly created ***`script.js`*** file with the following
 
 - List of **`variables`**
 - List of **`eventListeners`**
@@ -80,7 +80,7 @@ This quiz was newly created no customer boilerplate provided
   - *`addToLeaderBoard f(x)`* Adds players initials & score to scoreCard
   - *`removeFromLeaderBoard f(x)`* Clears the scoreCard when button selected
 
-#### 4. Newly created *`questions.js`* file with the following
+#### 4. Newly created ***`questions.js`*** file with the following
 
 - An array which contains an `object` with the `keys` of: `question`, `selection` & `answer`
 - <span style="color:red">**NOTE**:</span> The question array can be modified to meet the clients needs at any time
@@ -88,8 +88,6 @@ This quiz was newly created no customer boilerplate provided
 ---
 
 ## Sources Referenced
-
-Add more if needed
 
 [w3schools](https://www.w3schools.com) `|`
 [MDN web docs](https://developer.mozilla.org/en-US/) `|`
@@ -101,8 +99,9 @@ Add more if needed
 
 ## Accessibility Standards Validation
 
-Successfully ran code thru [W3C](https://validator.w3.org/) validator
-![Validation Results](./images/04-w3c-Success.png)
+| Successfully ran code thru [**W3C**](https://validator.w3.org/) validator |
+|---------------------------------------------------------------------------|
+| ![Validation Results](./images/04-w3c-Success.png)                        |
 
 ---
 
@@ -115,12 +114,10 @@ Submitted the following for review:
 
 ---
 
-## Mock-Up `|` <span style="color:red">**Coming Soon**</span>
+## Application Screenshots
 
-The following animation demonstrates the application functionality:
-
-Do NOT forget to add screenshots!
-
-<!-- ![code quiz](./images/04-web-apis-homework-demo.gif) -->
-
----
+| ***`Starting Screen`***                     | ***`Q & A Screen`***                        |
+| :-----------------------------------------: | :-----------------------------------------: |
+| ![Quiz Start](./images/quizStart400.jpg)    | ![Quiz Q & A](./images/quizQuestion400.jpg) |
+| ***`Game Over Screen`***                    | ***`Leader Board Screen`***                 |
+| ![Quiz Over](./images/quizOver400.jpg)      | ![High Scores](./images/quizScores400.jpg)  |
