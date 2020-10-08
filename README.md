@@ -89,10 +89,11 @@ This quiz was newly created no customer boilerplate provided
 
 ## Sources Referenced
 
+[google](https://www.google.com/) `|`
 [w3schools](https://www.w3schools.com) `|`
 [MDN web docs](https://developer.mozilla.org/en-US/) `|`
+[Eloquent JavaScript](https://eloquentjavascript.net/) `|`
 [Markdown Guide](https://www.markdownguide.org/) `|`
-[google](https://www.google.com/) `|`
 [w3schools Quiz](https://www.w3schools.com/quiztest/quiztest.asp?qtest=JS)
 
 ---
