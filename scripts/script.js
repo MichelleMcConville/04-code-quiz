@@ -9,7 +9,7 @@ var mcB = document.querySelector("#mcB");
 var mcC = document.querySelector("#mcC");
 var mcD = document.querySelector("#mcD");
 var answer = document.querySelector("#answer");
-var feedback = document.querySelector("#feedback");
+var feedback = document.querySelector("#feedback1");
 var card = document.querySelector("#multipleChoice");
 var inputForm = document.querySelector("#inputForm");
 var scoreCard = document.querySelector("#scoreCard");
@@ -65,10 +65,10 @@ function compareAnswer(event) {
     clearInterval(timeInterval);
   } else {
     if (event === questionBank[q].answer) {
-      feedback.textContent = "You are correct!";
+      feedback1.textContent = "You are correct!";
     } else {
       timeLeft -= 10;
-      feedback.textContent = "You are Wrong!";
+      feedback1.textContent = "You are Wrong!";
     }
     score = timeLeft;
     q++;
