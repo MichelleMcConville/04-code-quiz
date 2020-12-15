@@ -1,4 +1,4 @@
-# [**04-code-quiz**](https://michellemcconville.github.io/04-code-quiz/) :link:
+# [**04-code-quiz**](https://michellemcconville.github.io/04-code-quiz/) 🔗
 
 ## Customer Request
 
@@ -29,11 +29,11 @@ Build a ***`JavaScript Code Quiz`*** that must contain the following:
 
 This quiz was newly created no customer boilerplate provided
 
-### ***HTML*** `|` [**code-quiz**](https://michellemcconville.github.io/04-code-quiz/) :link:
+### ***HTML*** `|` [**code-quiz**](https://michellemcconville.github.io/04-code-quiz/) 🔗
 
 #### 1. Newly created ***`index.html`*** file with the following
 
-- This pages contains all the standard `<meta>`, stylesheet `<links>` & `<script>` files necessary
+- All the `<meta>`, stylesheet `<links>` & `<script>` files and/or libraries necessary
 - Contained inside the top of the `<body>` is:
   - A `<h1>` with a `<div>` explaining the rules of the game
   - A `Begin Quiz` button
@@ -58,7 +58,7 @@ This quiz was newly created no customer boilerplate provided
 
 #### 2. Newly created ***`style.css`*** file with the following
 
-- Added the `html5doctor.com Reset Style Sheet` by [Richard Clark](http://richclarkdesign.com)
+- Added the [html5doctor.com Reset Style Sheet](http://html5doctor.com/) by [Richard Clark](http://richclarkdesign.com)
 - Organized the style.css file alphabetically by element `< >` then class `<.>` then id `<#>`
 - Create the following groups:
   - *`Global, Classes, IDs, & Buttons`*
@@ -70,7 +70,7 @@ This quiz was newly created no customer boilerplate provided
 - List of **`variables`**
 - List of **`eventListeners`**
 - List of **`functions`**
-  - *`timer (x)`* Sets a timer of 15 seconds per Q
+  - *`timer f(x)`* Sets a timer of 15 seconds per Q
   - *`displayQA f(x)`* Displays the multiple choice Q&A part of the game
   - *`compareAnswer f(x)`* Compares the player's selections & responds w/ Correct or Wrong
   - *`getScore f(x)`* Get the scores from local storage
@@ -83,17 +83,17 @@ This quiz was newly created no customer boilerplate provided
 #### 4. Newly created ***`questions.js`*** file with the following
 
 - An array which contains an `object` with the `keys` of: `question`, `selection` & `answer`
-- <span style="color:red">**NOTE**:</span> The question array can be modified to meet the clients needs at any time
+- **NOTE**:</span> The question array can be modified to meet the clients needs at any time
 
 ---
 
 ## Sources Referenced
 
-[google](https://www.google.com/) `|`
-[w3schools](https://www.w3schools.com) `|`
-[MDN web docs](https://developer.mozilla.org/en-US/) `|`
-[Eloquent JavaScript](https://eloquentjavascript.net/) `|`
-[Markdown Guide](https://www.markdownguide.org/) `|`
+[google](https://www.google.com/) **`|`**
+[w3schools](https://www.w3schools.com) **`|`**
+[MDN web docs](https://developer.mozilla.org/en-US/) **`|`**
+[Eloquent JavaScript](https://eloquentjavascript.net/) **`|`**
+[Markdown Guide](https://www.markdownguide.org/) **`|`**
 [w3schools Quiz](https://www.w3schools.com/quiztest/quiztest.asp?qtest=JS)
 
 ---
